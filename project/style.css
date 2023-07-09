@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
 body {
   background: hsl(60, 6%, 87%);
+  margin: 0 auto;
+  font-family: Volkhow;
+  text-decoration: none;
 }
 
 .back_panel {
@@ -66,7 +71,66 @@ body {
 h1 {
   position: relative;
   left: 22%;
-  font-family: Volkhov;
   font-size: 1.5vw;
   font-weight: 400;
+}
+
+h2 {
+  position: relative;
+  left: 5%;
+  display: flex;
+  width: 173px;
+  height: 19px;
+  flex-direction: column;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.contacts-heading {
+  position: relative;
+  left: 5%;
+  display: flex;
+  width: 173px;
+  height: 19px;
+  flex-direction: column;
+  font-size: 1.2vw;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+nav {
+  position: relative;
+  left: 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+a,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.ul-1,
+.ul-2,
+.ul-3,
+.ul-4 {
+  line-height: 0;
+  margin: 1.5%;
+}
+
+.ul-1 {
+  list-style-image: url('images/phone.png');
+}
+
+.ul-2 {
+  list-style-image: url('images/mail.png');
+}
+
+.ul-3 {
+  list-style-image: url('images/8666686_github_icon.png');
+}
+
+.ul-4 {
+  list-style-image: url('images/telegram.png');
 }
