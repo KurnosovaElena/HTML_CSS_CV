@@ -98,6 +98,11 @@ h2 {
   margin-bottom: 1px;
 }
 
+.courses-heading {
+  width: 250px;
+  margin-top: 8%;
+}
+
 nav {
   position: relative;
   left: 4%;
@@ -133,4 +138,8 @@ a:visited {
 
 .ul-4 {
   list-style-image: url('images/telegram.png');
+}
+
+li{
+  font-size: 1.1vw;
 }
