@@ -98,6 +98,10 @@ h2 {
   margin-bottom: 1px;
 }
 
+.projects-heading {
+  width: 450px;
+}
+
 .courses-heading {
   width: 250px;
   margin-top: 8%;
