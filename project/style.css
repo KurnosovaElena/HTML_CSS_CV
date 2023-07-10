@@ -8,6 +8,8 @@ body {
 }
 
 .back_panel {
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
   left: 0;
   top: 0;
