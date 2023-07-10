@@ -1,2 +1,1 @@
-# HTML_CSS_CV
-CV layout
+https://kurnosovaelena.github.io/HTML_CSS_CV/project/
